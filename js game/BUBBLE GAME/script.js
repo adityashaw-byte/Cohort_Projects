@@ -1,5 +1,5 @@
 var score=0;
-var timer = 20;
+var timer = 60;
 var hitrn=0;
 
 function getnewHit(){
