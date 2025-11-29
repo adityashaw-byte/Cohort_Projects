@@ -1,0 +1,65 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+gap: 30px;   
+background-color: black;
+}
+#nav a{ 
+    text-decoration: none;
+    color:white ;
+    
+
+}
+#center{
+    background-size: cover;
+    background-image: url(./TRIPLE\ RS.jpg);
+    background-position: center;
+    height: 100%;
+    width: 100%;
+   
+}
+#box{
+    position: absolute;
+bottom: 30%;
+left: 5%;
+color: white;
+font-size: 40px;
+}
+ i{
+    color: white;
+}
+#box2  {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 60px;
+    padding: 25px;
+    }
+   
+    #box2 button{background-color: black;
+    color: white;
+padding: 15px 20px;
+border: white;
+border-radius: 50px;
+font-size: 15px;
+font-weight: 300px;}
+#box2 button:hover {
+  color: white;
+  background-color: red;
+}
+
+
+
+

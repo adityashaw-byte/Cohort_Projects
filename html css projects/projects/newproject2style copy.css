@@ -1,0 +1,261 @@
+@font-face {
+  font-family: seb;
+  src: url(./SATriumph.otf);
+}
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#navu{
+  height: 40px;
+  width: 100%;
+  background-color:black;
+  gap: 20px;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+
+}
+#navu a i >h2{color: red;}
+#navu a i >h2:hover{color: gold;}
+#navu a:hover{color: red!important;}
+#navu a{text-decoration: none !important;
+color: white !important;
+gap: 30px !important;
+text-align: left;
+}
+#nava{height: 30px;
+  width: 100%;
+  background-color: black;
+  gap: 30px;
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-end;
+text-align: end;}
+#nava a{
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 100;
+  font-size: 12px;
+  margin-top: 10px;
+  
+}
+#nava > a:hover{
+  color: red !important;
+}
+#heading{
+  height: 60%;
+  width: 100%;
+  background-color: white;
+  position: sticky;
+  margin-top: 1px;
+ }
+ #heading > h1{
+  position: absolute;
+  margin-top: 8%;
+  left: 8%;
+  font-size: 60px;
+  font-weight: 200 !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: BLACK;
+  text-align: center;
+
+ }
+ #para > p{  position: absolute;
+   margin-top:  15%;
+  left: 10%;
+  font-size: 15px;
+  font-weight: 200 !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  padding-left: 9px;
+  text-align: center;
+
+ }
+ #imgt > img {
+  margin-top: 0% !important;
+  margin-left: 50% !important;
+  
+  height: 40% !important;
+  width: 60% !important;
+  position: sticky;
+ }
+ #imgt > button{background-color: black;
+    color: white;
+padding: 15px 20px;
+border: white;
+border-radius: 50px;
+font-size: 15px;
+font-weight: 300px;
+margin-top: 10% !important;
+margin-left: 23% !important;
+position:absolute;
+}
+#buy:hover {
+  color: red !important;
+  background-color: transparent !important;
+  border: 1px solid red !important;
+  cursor: pointer;
+}
+
+ 
+
+#buy {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 22% !important;
+  margin-left: 25%;
+  position: absolute;
+}
+
+#heading2{
+  height: 60%;
+  width: 100%;
+  background-color: white;
+  position: sticky;
+  margin-top: 1px;
+ }
+ #heading2 > h1{
+  position: absolute;
+  margin-top: 12%;
+  left: 12%;
+  font-size: 60px;
+  font-weight: 200 !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: BLACK;
+  text-align: center;
+
+ }
+ #paray > p{  position: absolute;
+   margin-top:  17%;
+  left: 12%;
+  font-size: 15px;
+  font-weight: 200 !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  padding-left: 9px;
+  text-align: center;
+  justify-content: space-between;
+
+ }
+ #imgt1 > img {
+  margin-top: 0% !important;
+  margin-left: 50% !important;
+  
+  height: 40% !important;
+  width: 60% !important;
+  position: sticky;
+ }
+ #imgt1 > button{background-color: black;
+    color: white;
+padding: 15px 20px;
+border: white;
+border-radius: 50px;
+font-size: 15px;
+font-weight: 300px;
+margin-top: 10% !important;
+margin-left: 23% !important;
+position:absolute;
+}
+#buy1:hover {
+  color: red !important;
+  background-color: transparent !important;
+  border: 1px solid red !important;
+  cursor: pointer;
+}
+
+ 
+
+#buy1 {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 28%;
+  margin-left: 22%;
+  position: absolute;
+}
+
+#heading3{
+  height: 60%;
+  width: 100%;
+  background-color: white;
+  position: sticky;
+  margin-top: 1px;
+ }
+ #heading3 > h1{
+  position: absolute;
+  margin-top: 12%;
+  left: 12%;
+  font-size: 60px;
+  font-weight: 200 !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: BLACK;
+  text-align: center;
+
+ }
+ #paraz > p{  position: absolute;
+   margin-top:  22%;
+  left: 10%;
+  font-size: 15px;
+  font-weight: 200 !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  padding-left: 9px;
+  text-align: center;
+  justify-content: space-between;
+
+ }
+ #imgt2 > img {
+  margin-top: 10% !important;
+  margin-left: 49% !important;
+  
+  height: 30% !important;
+  width: 50% !important;
+  position: sticky;
+ }
+ #imgt2 > button{background-color: black;
+    color: white;
+padding: 15px 20px;
+border: white;
+border-radius: 50px;
+font-size: 15px;
+font-weight: 300px;
+margin-top: 10% !important;
+margin-left: 15% !important;
+position:absolute;
+}
+#buy2:hover {
+  color: red !important;
+  background-color: transparent !important;
+  border: 1px solid red !important;
+  cursor: pointer;
+}
+
+ 
+
+#buy2 {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 28%;
+  margin-left: 20%;
+  position: absolute;
+}

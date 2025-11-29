@@ -1,0 +1,127 @@
+.box {
+ text-align: center;
+ box-sizing: border-box;
+ margin:20px;
+ padding:20px;
+ border-radius: 0px;
+ background-color: grey;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.zero {
+  text-align: center;
+  border-radius: 0px;
+  background-color: lightblue;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  box-sizing: content-box;
+  margin: 10px;
+  padding: 20px;
+  background-color: lightseagreen;
+  border-radius: 8px;
+}
+
+.one {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: white;
+  width: 900px;
+}
+.two{text-align: center;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: white;
+  width: 900px}
+
+  .three{text-align: center;
+  box-sizing: content-box;
+  margin: 10px;
+  padding: 20px;
+  background-color: lightyellow;
+  border-radius: 8px;}
+
+  .four{ text-align: center;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: white;
+  width: 900px;
+}
+.five{ text-align: center;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: white;
+  width: 900px;}
+  .six{ text-align: center;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: white;
+  width: 900px;
+}
+.seven{ text-align: center;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: white;
+  width: 900px;
+}
+.eight{text-align: center;
+  box-sizing: content-box;
+  margin: 10px;
+  padding: 20px;
+  background-color: lightcoral;
+  border-radius: 8px;}
+  .nine{text-align: center;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: white;
+  width: 900px;}
+  .ten{text-align: center;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: white;
+  width: 900px;}
+  .eleven{text-align: center;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: white;
+  width: 900px;}
+  .e{text-align: center;
+  box-sizing: content-box;
+  margin: 10px;
+  padding: 20px;
+  background-color: lightgreen;
+  border-radius: 8px;}
+  .f{text-align: center;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: white;
+  width: 900px;}
+  .s {text-align: center;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: white;
+  width: 900px;}
+  .k{text-align: center;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: white;
+  width: 900px;}

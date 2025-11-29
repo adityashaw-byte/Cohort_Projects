@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --x:400px;
+  --y:400px;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+main video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+    
+}
+main .box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(1050px at var(--x) var(--y), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.9) 80%, black);
+}

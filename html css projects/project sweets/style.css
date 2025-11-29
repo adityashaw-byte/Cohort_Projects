@@ -1,0 +1,255 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 7%;
+    width: 100%;
+    background-color: #421716;
+     display: flex;
+    align-content: center !important;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    
+}
+#nav a{margin-top: 1.5%;
+    color: #fbf5a3;
+    text-decoration: none;
+    
+   
+}
+#nav i{margin-top: 1.5%;
+    color: #fbf5a3;
+    text-decoration: none;
+
+}
+.background img {
+    height: 30%;
+    width: 100%;
+    position: relative;
+}
+#nav > a:hover {
+  color: red !important;
+  background-color: transparent !important;
+  border: 2px solid red !important;
+  cursor: pointer;
+  padding: 4px 4px;
+  border-radius: 50px;
+  transition: all ease-in 0.1s;
+}
+.background h1{
+    position: absolute;
+   top: 25%;                   /* adjust vertical placement */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #421716;
+  z-index: 3;
+  font-size: 50px;
+}
+.background{
+    position: relative;
+    overflow: hidden;
+}
+.background p{ position: absolute;
+   top: 50%;                   /* adjust vertical placement */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:transparent;
+  z-index: 1;
+  font-size: 20px;
+  text-align: center;
+
+}
+.background p:hover{color: #421716;
+    transition: all ease-in-out 0.7s;
+
+}
+
+#main {height: 100%;
+width: 100%;
+background-color: white;
+display: flex;
+flex-wrap: wrap;
+gap: 180px !important; 
+margin-left: 8%;}
+.card{
+    height: 350px;
+    width: 300px;
+    background-color: #faf4e8;
+    position: relative;
+
+    margin-top: 8%;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    
+}
+.bottom{
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(transparent , #421716);
+    position: absolute;
+    bottom: -40%;
+    transition: all ease-in 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    
+}
+.card:hover .bottom{
+    bottom: 0%;
+}
+.bottom h4{
+    margin-left: 25%;
+    margin-top: 15%;
+    z-index: 3;
+    font-size: 30px;
+    color: #fbf5a3;
+    text-align: center;
+}
+ h1{
+    text-align: center;
+    margin-top: 4%;
+    color: #d4a017;
+}
+
+.card1{
+    height: 350px;
+    width: 300px;
+    background-color: #faf4e8;
+    position: relative;
+
+    margin-top: 1%;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.card1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    
+}
+.bottom1{
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(transparent , #421716);
+    position: absolute;
+    bottom: -40%;
+    transition: all ease-in 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    
+}
+.card1:hover .bottom1{
+    bottom: 0%;
+}
+.bottom1 h4{
+    margin-left: 25%;
+    margin-top: 15%;
+    z-index: 3;
+    font-size: 30px;
+    color: #fbf5a3;
+    text-align: center;
+}
+
+.card2{
+    height: 350px;
+    width: 300px;
+    background-color: #faf4e8;
+    position: relative;
+
+    margin-top: 1%;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.card2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    
+}
+.bottom2{
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(transparent , #421716);
+    position: absolute;
+    bottom: -40%;
+    transition: all ease-in 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    
+}
+.card2:hover .bottom2{
+    bottom: 0%;
+}
+.bottom2 h4{
+    margin-left: 25%;
+    margin-top: 15%;
+    z-index: 3;
+    font-size: 30px;
+    color: #fbf5a3;
+    text-align: center;
+}
+.card3{
+    height: 350px;
+    width: 300px;
+    background-color: #faf4e8;
+    position: relative;
+
+    margin-top: 1%;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.card3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    
+}
+.bottom3{
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(transparent , #421716);
+    position: absolute;
+    bottom: -40%;
+    transition: all ease-in 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    
+}
+.card3:hover .bottom3{
+    bottom: 0%;
+}
+.bottom3 h4{
+    margin-left: 25%;
+    margin-top: 15%;
+    z-index: 3;
+    font-size: 30px;
+    color: #fbf5a3;
+    text-align: center;
+}
